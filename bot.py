@@ -10,7 +10,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 BOT_TOKEN = "7575484165:AAE0hi2FrnahXlGTK_udxuzsqsKDH5xmFvI"
 ADMIN_ID = 8073910583
 CHANNEL_ID = -1002758370194
-WEBHOOK_URL_BASE = os.getenv("WEBHOOK_URL_BASE", "")  # Render өзі береді, сондықтан орта айнымалылардан аламыз
+WEBHOOK_URL_BASE = "https://battlebot-xfc7.onrender.com"
 WEBHOOK_URL_PATH = f"/{BOT_TOKEN}/"
 
 bot = telebot.TeleBot(BOT_TOKEN)
